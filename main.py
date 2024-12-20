@@ -13,10 +13,9 @@ from selenium.webdriver.support import expected_conditions as EC
 from datetime import timedelta
 
 # AWS CREDENTIALS
-ACCESS_KEY = 'ASIAUKAQE32I42EDPCFB'
-SECRET_KEY = 'Io+mJGdxmXWPgjLPDT256GPyWtDiSPn+922cXfs/'
-SESSION_TOKEN = 'IQoJb3JpZ2luX2VjELj//////////wEaCXVzLXdlc3QtMiJIMEYCIQDHQpYRymrwV6TP2ofVOHUAAcN9/dQ3sm/aGRSVhffVZQIhAOTRxi7XKIdWzA5IB+DHBCQRSuoT5+/SoUzOMHKhxigtKsUCCIH//////////wEQARoMMjk2Mzg2NjE2OTc3Igwx3hktDwMgONxTgbQqmQLwpuhd5Bv+kWKmFb3XmcYqW/zHSj4uU1NMaMY1KjvW3gf6iZhN4HA+SazdrRcX/csARPG4P5jzZQqTrRWPCID5KLMgp1XrMEAlFR0cl8OP313u+xTz0PhNIHh5+3DHhJHRgwG0th7wy41ahsGUzt4gjleuCCagyRFps1bUaqSBxxRDFZ85fE4vVO3R7AgvNNvqpWmYiIXpHFGdVdoOiMsfsgRU0Ukcwf3QfB2AmVR06j+mysq8GitecCinuAugaoD5FKUDjty42ckkeTPGPoEmGX/Lt2QQzUTvnP5xw6soJ+F417SX5bZIAEiR9Q8j9TIgrcJ4DCLrgkxm9md0PuYh0I6sSGeDKdFHxa1v/jz11L57SFOcVuXSbzD415K7BjqcAQkyDJ4MwQcbDFN+5/hyo0xjjxgg8HrZZikhtnmxCDCFzJHBoq3i3aBVVXB/Nor6iWEnXZl4GPhnN8toitsj+ffBEkM04gj9ebe9rBA3V/sjf6HPgoIiTy3fDhM0eLhNUIDJusTLlSSaz86tHZ9krgjgUpzEHq9ttO71wS0LyFhXGWc0WNg49oYBITYGSkmDZDvf9wbBdJrJDkPefA=='
-
+ACCESS_KEY = ''
+SECRET_KEY = ''
+SESSION_TOKEN = ''
 # Reference Date
 current_date = pd.to_datetime('now') - timedelta(days=7)
 current_date_str = current_date.strftime('%Y-%m-%d')
